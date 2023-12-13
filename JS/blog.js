@@ -7,9 +7,13 @@ function museum(){
   document.getElementById("museum").style.display="block";
   document.getElementById("roses").style.display="none";
   document.getElementById("home").style.display="none";
+  document.getElementById("about").style.display="none";
+  document.getElementById("contact").style.display="none";
 }
 function roses(){
   document.getElementById("roses").style.display="block";
   document.getElementById("museum").style.display="none";
   document.getElementById("home").style.display="none";
+  document.getElementById("about").style.display="none";
+  document.getElementById("contact").style.display="none";
 }
