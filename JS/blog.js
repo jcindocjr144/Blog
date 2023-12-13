@@ -6,3 +6,6 @@ function roses(){
   document.getElementById("roses").style.display="block";
   document.getElementById("museum").style.display="none";
 }
+function home(){
+  document.getElementById("home").style.display="block";
+}
