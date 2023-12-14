@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="IMAGES/mylogo.png">
 </head>
 <body >
-    <nav class="navbar navbar-expand-sm bg-light navbar-dark p-3 navbar-right" id="top">
+    <nav class="navbar navbar-expand-sm bg-light navbar-dark p-3 navbar-right text-dark" id="top">
     <div class="container-fluid"> 
       <img src="IMAGES/mylogo.png"  width="50">
       <button class="navbar-toggler bg-success border border-danger border-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
@@ -39,7 +40,7 @@
     </div>
   </nav>
 <div id="home">
-  <h1 class="text-center text-dark p-5" style="font-family:cursive;  opacity: none;">MY <span class="text-danger">PERSONAL</span> BLOG <img src="IMAGES/logo.png"  width="50"></h1>
+  <h1 class="text-center text-dark p-2" style="font-family:cursive;  opacity: none;">MY <span class="text-danger">PERSONAL</span> BLOG <img src="IMAGES/logo.png"  width="50"></h1>
 <div class="row">
   <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center" style="height:600px; opacity: 0.5; background-image:URL('IMAGES/cclex.jpg');  background-size:cover; background-repeat:no-repeat;"></div>
   <div class="col-lg-6 col-12" style="background-color: rgb(241 245 249);"><img src="IMAGES/profile.png" class="w-100 p-5 rounded-circle" style="height:600px; opacity: 0.9;"></div>
@@ -52,10 +53,11 @@
 </div>
 
   
-  <div class="container bg-dark" id="museum" style="display:none;">
+  <div class="container" id="museum" style="display:none;">
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
- <h1 class="text-center text-white p-3">CORDOVA MUNICIPAL MUSEUM</h1>
-
+ <h1 class="text-center text-dark p-3">CORDOVA MUNICIPAL MUSEUM</h1>
+ <h4 class="text-start text-dark p-3">The old Cordova Municipal Hall is converted into a mini museum it is one of Cordova's Tourist spots at the same time it also has history.
+  As of today, the new municipal hall is widened and has a lot more building than before. </h4>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="IMAGES/museum.png"  class=" d-block mx-auto p-5 w-100" >
@@ -73,27 +75,51 @@
   <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
-<p class="text-start text-white p-3">The old Cordova Municipal Hall is converted into a mini museum it is one of Cordova's Tourist spots at the same time it also has history.
-  As of today, the new municipal hall is widened and has a lot more building than before. </p>
+
 </div>
   </div>
 <div class="container" id="roses" style="display:none;">  
   <h1 class="text-center p-3">CORDOVA TOURIST SPOTS</h1>
-  <p class="text-end">NEXT</p>
+  <p class="text-end"><a href="#" onclick="next()" style="text-decoration: none; font-size:20px; color:RED;">NEXT 
+    <i class="fa fa-angle-double-right" style="font-size:20px;color:red"></i></a></p>
    <h1 class="text-start mt-2">1. 10k roses <span class="text-danger">(10,000 roses)</span></h1>
-  <div class="row">
+   
+   <h4 class="text-start p-3">Although the flowers at Cebu's 10,000 Roses Cafe are not genuine, they are nevertheless beautiful.
+    However, if you are staying in Cebu City or Mandaue, the distance may be daunting. Fortunately, the Cebu-Cordova Link Expressway,
+    which connects Mactan to the rest of Cebu, makes traveling here very easy and more convenient. It is owned by Miguel Cho, an interior designer. 
+    He was inspired by the famous Dongdaenum Design Plaza in South Korea.The entrance here is 20 pesos for non-locals and free for local citizens of cordova.</h4>
+   
+  <div class="row mt-2">
       <div class="col-lg-6 col-12">
- <video class="p-1 w-100" controls>
-      <source src="IMAGES/10k.mp4" type="video/mp4">
-    </video></div>
+   <img src="IMAGES/roses1.png" class="p-1 w-100 mx-auto d-block">
+ </div>
    <div class="col-lg-6 col-12">
-     <h1 class="text-center p-3">10,000 ROSES</h1>
-   <p class="text-start p-3">Although the flowers at Cebu's 10,000 Roses Cafe are not genuine, they are nevertheless beautiful.
-     However, if you are staying in Cebu City or Mandaue, the distance may be daunting. Fortunately, the Cebu-Cordova Link Expressway,
-     which connects Mactan to the rest of Cebu, makes traveling here very easy and more convenient. It is owned by Miguel Cho, an interior designer. 
-     He was inspired by the famous Dongdaenum Design Plaza in South Korea.The entrance here is 20 pesos for non-locals and free for local citizens of cordova.</p>
+     <video class="p-1 w-100" controls>
+      <source src="IMAGES/10k.mp4" type="video/mp4">
+    </video>
    </div>
   </div></div>
+  
+<div class="container" id="centennial" style="display:none;">  
+  <h1 class="text-center p-3">CORDOVA TOURIST SPOTS</h1>
+  <div class="row">
+    <div class="col-6"><p class="text-start"><a href="#" onclick="previous()" style="text-decoration: none; font-size:20px; color:RED;"><i class="fa fa-angle-double-left" style="font-size:20px;color:red"></i> PREVIOUS</a></p></div>
+    <div class="col-6"><p class="text-end"><a href="#" onclick="next()" style="text-decoration: none; font-size:20px; color:RED;">NEXT <i class="fa fa-angle-double-right" style="font-size:20px;color:red"></i></a></span>
+  </p></div>
+  <h1 class="text-start mt-2">2. Cordova <span class="text-danger">Centennial Road</span></h1>
+ <h4 class="text-start p-3">Cordova Centennial Road is a four-lane road that links Barangay Alegria to the Rio Port of Cordova.It is a port that has a boat traveling to Jetape, Bohol,
+    and it is also one of the bus routes that pass through CCLEX. It has a waiting shed and a wide road that can pass many vehicles. It also has a restaurant they call Roro. It is called Roro because 
+   it is named after the port. You can only pass it because it is just on the side of the road.</h4>
+  <div class="row">
+    <div class="col-lg-6 col-12">
+      <img src="IMAGES/centennial.png" class="w-100 p-1">
+    </div>
+    <div class="col-lg-6 col-12">
+      <img src="IMAGES/centennial1.png" class="w-100 p-1">
+    </div>
+  </div>
+</div>
+    </div>
 <script src="JS/blog.js"></script>
 </body>
 </html>
