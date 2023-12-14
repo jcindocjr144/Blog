@@ -9,6 +9,7 @@ function museum(){
   document.getElementById("home").style.display="none";
   document.getElementById("about").style.display="none";
   document.getElementById("contact").style.display="none";
+  document.getElementById("footer").style.display="none";
 }
 function roses(){
   document.getElementById("roses").style.display="block";
@@ -16,4 +17,5 @@ function roses(){
   document.getElementById("home").style.display="none";
   document.getElementById("about").style.display="none";
   document.getElementById("contact").style.display="none";
+  document.getElementById("footer").style.display="none";
 }
