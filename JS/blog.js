@@ -10,6 +10,7 @@ function museum(){
   document.getElementById("about").style.display="none";
   document.getElementById("contact").style.display="none";
   document.getElementById("footer").style.display="none";
+  document.getElementById("centennial").style.display="none";
 }
 function roses(){
   document.getElementById("roses").style.display="block";
@@ -18,4 +19,13 @@ function roses(){
   document.getElementById("about").style.display="none";
   document.getElementById("contact").style.display="none";
   document.getElementById("footer").style.display="none";
+  document.getElementById("centennial").style.display="none";
+}
+function next(){
+  document.getElementById("centennial").style.display="block";
+  document.getElementById("roses").style.display="none";
+}
+function previous(){
+  document.getElementById("centennial").style.display="none";
+  document.getElementById("roses").style.display="block";
 }
