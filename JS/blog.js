@@ -2,6 +2,7 @@ function home(){
   document.getElementById("home").style.display="block";
   document.getElementById("roses").style.display="none";
   document.getElementById("municipal").style.display="none";
+  document.getElementById("environment").style.display="none";
   document.getElementById("bakasihan").style.display="none";
   document.getElementById("centennial").style.display="none";
   document.getElementById("museum").style.display="none";
@@ -9,6 +10,7 @@ function home(){
 }
 function municipal(){
   document.getElementById("municipal").style.display="block";
+  document.getElementById("environment").style.display="none";
   document.getElementById("bakasihan").style.display="none";
   document.getElementById("centennial").style.display="none";
   document.getElementById("roses").style.display="none";
@@ -18,9 +20,20 @@ function municipal(){
 }
 function roses(){
   document.getElementById("roses").style.display="block";
+  document.getElementById("environment").style.display="none";
   document.getElementById("bakasihan").style.display="none";
   document.getElementById("centennial").style.display="none";
   document.getElementById("municipal").style.display="none";
+  document.getElementById("museum").style.display="none";
+  document.getElementById("cclex").style.display="none";
+  document.getElementById("home").style.display="none";
+}
+function environment(){
+  document.getElementById("environment").style.display="block";
+  document.getElementById("municipal").style.display="none";
+  document.getElementById("bakasihan").style.display="none";
+  document.getElementById("centennial").style.display="none";
+  document.getElementById("roses").style.display="none";
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
   document.getElementById("home").style.display="none";
