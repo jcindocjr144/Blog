@@ -22,13 +22,13 @@
             <a class="nav-link text-dark success-lighter-hover" href="#home" onclick="home()"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark success-lighter-hover" href="#about" onclick="roses()"><i class="fa fa-plane" aria-hidden="true" style="color:RED;"></i>Tourists Spots</a>
+            <a class="nav-link text-dark success-lighter-hover" href="#" onclick="roses()"><i class="fa fa-plane" aria-hidden="true" style="color:RED;"></i>Tourists Spots</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark success-lighter-hover" href="#contact" onclick="museum()"><i class="fa fa-building" aria-hidden="true" style="color:BLUE;"></i>Historical Sites</a>
+            <a class="nav-link text-dark success-lighter-hover" href="#" onclick="municipal()"><i class="fa fa-building" aria-hidden="true" style="color:BLUE;"></i>Historical Sites</a>
           </li> 
           <li class="nav-item">
-            <a class="nav-link text-dark success-lighter-hover" href="#contact" onclick="museum()"><i class="fa fa-envira" aria-hidden="true" style="color:GREEN;"></i>Environment</a>
+            <a class="nav-link text-dark success-lighter-hover" href="#c" onclick="museum()"><i class="fa fa-envira" aria-hidden="true" style="color:GREEN;"></i>Environment</a>
           </li>   
      
         </ul>
@@ -39,36 +39,6 @@
   <img src="IMAGES/cclex.png" class="w-100">
 </div>
 
-
-  
-  <div class="container" id="museum" style="display:none;">
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
- <h1 class="text-center text-dark p-3">CORDOVA HISTORICAL SITES</h1>
- <p class="text-end"><a href="#" onclick="next()" style="text-decoration: none; font-size:20px; color:RED;">NEXT 
-   <i class="fa fa-angle-double-right" style="font-size:20px;color:red"></i></a></p>
- <h1 class="text-start mt-2">1. Cordova Old <span class="text-danger">Municipal Hall</span></h1>
- <h4 class="text-start text-dark p-3">The old Cordova Municipal Hall is converted into a mini museum it is one of Cordova's Tourist spots at the same time it also has history.
-  As of today, the new municipal hall is widened and has a lot more building than before. </h4>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="IMAGES/museum.png"  class=" d-block mx-auto p-5 w-100" >
-    </div>
-    <div class="carousel-item">
-      <img src="IMAGES/museum1.png"  class=" d-block mx-auto p-5 w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="IMAGES/museum2.png"  class="d-block mx-auto p-5 w-100">
-    </div>
-  </div>
-<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-
-</div>
-  </div>
 <div class="container" id="roses" style="display:none;">  
   <h1 class="text-center p-3">CORDOVA TOURIST SPOTS</h1>
   <p class="text-end"><a href="#" onclick="next()" style="text-decoration: none; font-size:20px; color:RED;">NEXT 
@@ -124,6 +94,34 @@
   </div>
 </div>
   </div>
+  
+  <div class="container" id="municipal" style="display:none;">
+     <h1 class="text-center text-dark p-3">CORDOVA HISTORICAL SITES</h1>
+     <p class="text-end"><a href="#" onclick="next2()" style="text-decoration: none; font-size:20px; color:RED;">NEXT 
+       <i class="fa fa-angle-double-right" style="font-size:20px;color:red"></i></a></p>
+     <h1 class="text-start mt-2">1. Cordova Old <span class="text-danger">Municipal Hall</span></h1>
+     <h4 class="text-start text-dark p-3">The old Cordova Municipal Hall is converted into a mini museum it is one of Cordova's Tourist spots at the same time it also has history.
+      As of today, the new municipal hall is widened and has a lot more building than before. </h4>
+      <div class="row mt-2">
+        <div class="col-lg-6 col-12">
+     <img src="IMAGES/museum.png" class="p-1 w-100 mx-auto d-block">
+    </div>
+    <div class="col-lg-6 col-12">
+      <img src="IMAGES/museum1.png" class="p-1 w-100 mx-auto d-block">
+     </div>
+    </div>
+  </div>
+    <div class="container" id="museum" style="display:none;">
+      <h1 class="text-center text-dark p-3">CORDOVA HISTORICAL SITES</h1>
+      <p class="text-end"><a href="#" onclick="next2()" style="text-decoration: none; font-size:20px; color:RED;">NEXT 
+        <i class="fa fa-angle-double-right" style="font-size:20px;color:red"></i></a></p>
+      <h1 class="text-start mt-2">2. Miracle Art <span class="text-danger">Museum</span></h1>
+      <h4 class="text-start text-dark p-3">The Cebu Happy World Museum Miracle Art is Cordova's modern museum it is located in Alegria Cordova, Cebu next to the road to Cordova Public College. The design of this museum 
+        is like a castle in the other country, it was a bulding that is most likely carved for attraction. There are also restaurants outside the museum where other visitors eat here before or after going inside and out of the museum.
+      </h4>
+       
+      <img src="IMAGES/museum2.png" class="p-1 w-100 mx-auto d-block">
+     </div>
 <script src="JS/blog.js"></script>
 </body>
 </html>
