@@ -1,4 +1,5 @@
 function home(){
+  document.getElementById("church").style.display="none";
   document.getElementById("home").style.display="block";
   document.getElementById("roses").style.display="none";
   document.getElementById("municipal").style.display="none";
@@ -7,7 +8,6 @@ function home(){
   document.getElementById("centennial").style.display="none";
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
-  document.getElementById("church").style.display="none";
 }
 function municipal(){
   document.getElementById("municipal").style.display="block";
@@ -48,6 +48,7 @@ function next(){
   document.getElementById("bakasihan").style.display="none";
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
+  document.getElementById("church").style.display="none";
 }
 function previous(){
   document.getElementById("centennial").style.display="none";
@@ -55,6 +56,7 @@ function previous(){
   document.getElementById("bakasihan").style.display="none";
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
+  document.getElementById("church").style.display="none";
 }
 function next1(){
   document.getElementById("bakasihan").style.display="block";
@@ -62,6 +64,7 @@ function next1(){
   document.getElementById("roses").style.display="none";
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
+  document.getElementById("church").style.display="none";
 }
 function previous1(){
   document.getElementById("centennial").style.display="block";
@@ -69,6 +72,7 @@ function previous1(){
   document.getElementById("bakasihan").style.display="none";
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
+  document.getElementById("church").style.display="none";
 }
 function next2(){
   document.getElementById("museum").style.display="block";
@@ -77,6 +81,7 @@ function next2(){
   document.getElementById("bakasihan").style.display="none";
   document.getElementById("centennial").style.display="none";
   document.getElementById("roses").style.display="none";
+  document.getElementById("church").style.display="none";
 }
 function previous2(){
   document.getElementById("bakasihan").style.display="block";
@@ -84,6 +89,7 @@ function previous2(){
   document.getElementById("roses").style.display="none";
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
+  document.getElementById("church").style.display="none";
 }
 function next3(){
   document.getElementById("cclex").style.display="block";
