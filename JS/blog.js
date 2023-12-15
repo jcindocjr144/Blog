@@ -53,3 +53,9 @@ function next2(){
   document.getElementById("centennial").style.display="none";
   document.getElementById("roses").style.display="none";
 }
+function previous2(){
+  document.getElementById("bakasihan").style.display="block";
+  document.getElementById("centennial").style.display="none";
+  document.getElementById("roses").style.display="none";
+  document.getElementById("museum").style.display="none";
+}
