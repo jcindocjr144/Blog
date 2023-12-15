@@ -10,7 +10,7 @@
   <link rel="shortcut icon" href="IMAGES/mylogo.png">
 </head>
 <body >
-    <nav class="nav navbar navbar-expand-sm  bg-light navbar-dark p-3  text-dark" id="top">
+    <nav class="nav navbar navbar-expand-sm  bg-light navbar-dark p-3  text-dark" >
     <div class="container-fluid"> 
       <img src="IMAGES/mylogo.png"  width="50" class="me-5">
       <button class="navbar-toggler bg-success border border-danger border-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -28,7 +28,7 @@
             <a class="nav-link text-dark success-lighter-hover" href="#" onclick="municipal()"><i class="fa fa-building" aria-hidden="true" style="color:BLUE;"></i>Historical Sites</a>
           </li> 
           <li class="nav-item">
-            <a class="nav-link text-dark success-lighter-hover" href="#c" onclick="museum()"><i class="fa fa-envira" aria-hidden="true" style="color:GREEN;"></i>Environment</a>
+            <a class="nav-link text-dark success-lighter-hover" href="#" onclick="environment()"><i class="fa fa-envira" aria-hidden="true" style="color:GREEN;"></i>Environment</a>
           </li>   
      
         </ul>
@@ -102,8 +102,6 @@
     <h1 class="text-center p-3">CORDOVA TOURIST SPOTS</h1>
     <div class="row">
       <div class="col-6"><p class="text-start"><a href="#" onclick="previous2()" style="text-decoration: none; font-size:20px; color:RED;"><i class="fa fa-angle-double-left" style="font-size:20px;color:red"></i> PREVIOUS</a></p></div>
-      <div class="col-6"><p class="text-end"><a href="#" onclick="next3()" style="text-decoration: none; font-size:20px; color:RED;">NEXT <i class="fa fa-angle-double-right" style="font-size:20px;color:red"></i></a></span>
-    </p></div>
      <h1 class="text-start mt-2">4. Miracle Art <span class="text-danger">Museum</span></h1>
         <h4 class="text-start text-dark p-3">The Cebu Happy World Museum Miracle Art is Cordova's modern museum it is located in Alegria Cordova, Cebu next to the road to Cordova Public College. The design of this museum 
           is like a castle in the other country, it was a bulding that is most likely carved for attraction. There are also restaurants outside the museum where other visitors eat here before or after going inside and out of the museum.
@@ -128,6 +126,24 @@
      </div>
     </div>
   </div>
+  
+  <div class="container" id="environment" style="display:none;">
+    <h1 class="text-center text-dark p-3">ENVIRONMENT</h1> 
+      <div class="row mt-2">
+        <div class="col-lg-6 col-12">
+          <h1 class="text-center mt-2">1. Cordova <span class="text-danger">Roro Port</span></h1>
+      <video src="IMAGES/environment.mp4" controls class="w-100"></video>
+    </div>
+    <div class="col-lg-6 col-12">
+      <h1 class="text-center mt-2">2. Cordova Centennial <span class="text-danger">Road</span></h1>
+      <video src="IMAGES/environment1.mp4" controls class="w-100"></video>
+     </div>
+    </div>
+  
+  <div class="col-lg-6 col-12">
+   </div>
+  </div>
+  </div>
     <div class="container" id="cclex" style="display:none;">
       <h1 class="text-center text-dark p-3">CORDOVA HISTORICAL SITES</h1> <div class="row">
         <div class="col-6"><p class="text-start"><a href="#" onclick="previous3()" style="text-decoration: none; font-size:20px; color:RED;"><i class="fa fa-angle-double-left" style="font-size:20px;color:red"></i> PREVIOUS</a></p></div>
@@ -147,7 +163,8 @@
       <img src="IMAGES/cclex3.png" class="p-1 w-100 mx-auto d-block">
      </div>
     </div>
-   
+ 
+
 
 <script src="JS/blog.js"></script>
 </body>
