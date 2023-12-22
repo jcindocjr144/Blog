@@ -8,6 +8,10 @@ function home(){
   document.getElementById("centennial").style.display="none";
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
+  document.getElementById("react1").style.display="none";
+  document.getElementById("react2").style.display="none";
+  document.getElementById("react3").style.display="none";
+  document.getElementById("react4").style.display="none";
 }
 function municipal(){
   document.getElementById("municipal").style.display="block";
@@ -19,6 +23,10 @@ function municipal(){
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
   document.getElementById("home").style.display="none";
+  document.getElementById("react1").style.display="none";
+  document.getElementById("react2").style.display="none";
+  document.getElementById("react3").style.display="none";
+  document.getElementById("react4").style.display="none";
 }
 function roses(){
   document.getElementById("roses").style.display="block";
@@ -31,6 +39,9 @@ function roses(){
   document.getElementById("cclex").style.display="none";
   document.getElementById("home").style.display="none";
   document.getElementById("church").style.display="none";
+  document.getElementById("react2").style.display="none";
+  document.getElementById("react3").style.display="none";
+  document.getElementById("react4").style.display="none";
 }
 function environment(){
   document.getElementById("environment").style.display="block";
@@ -42,6 +53,10 @@ function environment(){
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
   document.getElementById("home").style.display="none";
+  document.getElementById("react1").style.display="none";
+  document.getElementById("react2").style.display="none";
+  document.getElementById("react3").style.display="none";
+  document.getElementById("react4").style.display="none";
 }
 function next(){
   document.getElementById("centennial").style.display="block";
@@ -51,14 +66,9 @@ function next(){
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
   document.getElementById("church").style.display="none";
-}
-function previous(){
-  document.getElementById("centennial").style.display="none";
-  document.getElementById("roses").style.display="block";
-  document.getElementById("bakasihan").style.display="none";
-  document.getElementById("museum").style.display="none";
-  document.getElementById("cclex").style.display="none";
-  document.getElementById("church").style.display="none";
+  document.getElementById("react1").style.display="none";
+  document.getElementById("react3").style.display="none";
+  document.getElementById("react4").style.display="none";
 }
 function next1(){
   document.getElementById("bakasihan").style.display="block";
@@ -68,14 +78,9 @@ function next1(){
   document.getElementById("museum").style.display="none";
   document.getElementById("cclex").style.display="none";
   document.getElementById("church").style.display="none";
-}
-function previous1(){
-  document.getElementById("centennial").style.display="block";
-  document.getElementById("roses").style.display="none";
-  document.getElementById("bakasihan").style.display="none";
-  document.getElementById("museum").style.display="none";
-  document.getElementById("cclex").style.display="none";
-  document.getElementById("church").style.display="none";
+  document.getElementById("react1").style.display="none";
+  document.getElementById("react2").style.display="none";
+  document.getElementById("react4").style.display="none";
 }
 function next2(){
   document.getElementById("museum").style.display="block";
@@ -86,14 +91,9 @@ function next2(){
   document.getElementById("centennial").style.display="none";
   document.getElementById("roses").style.display="none";
   document.getElementById("church").style.display="none";
-}
-function previous2(){
-  document.getElementById("bakasihan").style.display="block";
-  document.getElementById("centennial").style.display="none";
-  document.getElementById("roses").style.display="none";
-  document.getElementById("museum").style.display="none";
-  document.getElementById("cclex").style.display="none";
-  document.getElementById("church").style.display="none";
+  document.getElementById("react1").style.display="none";
+  document.getElementById("react2").style.display="none";
+  document.getElementById("react3").style.display="none";
 }
 function next3(){
   document.getElementById("cclex").style.display="block";
@@ -103,18 +103,11 @@ function next3(){
   document.getElementById("bakasihan").style.display="none";
   document.getElementById("centennial").style.display="none";
   document.getElementById("roses").style.display="none";
+  document.getElementById("react1").style.display="none";
+  document.getElementById("react2").style.display="none";
+  document.getElementById("react3").style.display="none";
+  document.getElementById("react4").style.display="none";
 }
-function previous3(){
-  document.getElementById("municipal").style.display="block";
-  document.getElementById("bakasihan").style.display="none";
-  document.getElementById("centennial").style.display="none";
-  document.getElementById("church").style.display="none";
-  document.getElementById("roses").style.display="none";
-  document.getElementById("museum").style.display="none";
-  document.getElementById("home").style.display="none";
-  document.getElementById("cclex").style.display="none";
-}
-
 function next4(){
   document.getElementById("church").style.display="block";
   document.getElementById("cclex").style.display="none";
@@ -123,16 +116,10 @@ function next4(){
   document.getElementById("bakasihan").style.display="none";
   document.getElementById("centennial").style.display="none";
   document.getElementById("roses").style.display="none";
-}
-
-function previous4(){
-  document.getElementById("cclex").style.display="block";
-  document.getElementById("museum").style.display="none";
-  document.getElementById("municipal").style.display="none";
-  document.getElementById("church").style.display="none";
-  document.getElementById("bakasihan").style.display="none";
-  document.getElementById("centennial").style.display="none";
-  document.getElementById("roses").style.display="none";
+  document.getElementById("react1").style.display="none";
+  document.getElementById("react2").style.display="none";
+  document.getElementById("react3").style.display="none";
+  document.getElementById("react4").style.display="none";
 }
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
