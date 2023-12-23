@@ -151,8 +151,6 @@ function myFunction() {
   document.getElementById("demo2").style.background="WHITE";
   document.getElementById("demo3").style.background="WHITE";
   document.getElementById("demo4").style.background="WHITE";
-  document.getElementById("hand").style.display="block";
-
 }
 function myFunction1() {
   document.getElementById("demo1").style.background="RED";
@@ -193,8 +191,6 @@ function myFunction5() {
   document.getElementById("demo7").style.background="WHITE";
   document.getElementById("demo8").style.background="WHITE";
   document.getElementById("demo9").style.background="WHITE";
-  document.getElementById("hand").style.display="block";
-
 }
 function myFunction6() {
   document.getElementById("demo6").style.background="RED";
@@ -235,8 +231,6 @@ function myFunction10() {
   document.getElementById("demo12").style.background="WHITE";
   document.getElementById("demo13").style.background="WHITE";
   document.getElementById("demo14").style.background="WHITE";
-  document.getElementById("hand").style.display="block";
-
 }
 function myFunction11() {
   document.getElementById("demo11").style.background="RED";
@@ -277,8 +271,6 @@ function myFunction15() {
   document.getElementById("demo17").style.background="WHITE";
   document.getElementById("demo18").style.background="WHITE";
   document.getElementById("demo19").style.background="WHITE";
-  document.getElementById("hand").style.display="block";
-
 }
 function myFunction16() {
   document.getElementById("demo16").style.background="RED";
