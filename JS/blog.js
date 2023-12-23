@@ -145,47 +145,47 @@ for (i = 0; i < dropdown.length; i++) {
   });
 }
 function myFunction() {
-  document.getElementById("demo").style.background="BLUE";
-  document.getElementById("demo2").style.color="BLACK";
-  document.getElementById("demo1").style.background="WHITE";
-  document.getElementById("demo2").style.background="WHITE";
-  document.getElementById("demo3").style.background="WHITE";
-  document.getElementById("demo4").style.background="WHITE";
-  document.getElementById("hand").style.display="block";
-
-}
-function myFunction1() {
-  document.getElementById("demo1").style.background="RED";
-  document.getElementById("demo2").style.color="BLACK";
-  document.getElementById("demo2").style.background="WHITE";
-  document.getElementById("demo3").style.background="WHITE";
-  document.getElementById("demo").style.background="WHITE";
-  document.getElementById("demo4").style.background="WHITE";
-}
-function myFunction2() {
-  document.getElementById("demo2").style.background="GREEN";
-  document.getElementById("demo2").style.color="WHITE";
-  document.getElementById("demo3").style.background="WHITE";
-  document.getElementById("demo1").style.background="WHITE";
-  document.getElementById("demo").style.background="WHITE";
-  document.getElementById("demo4").style.background="WHITE";
-}
-function myFunction3() {
-  document.getElementById("demo3").style.background="YELLOW";
-  document.getElementById("demo2").style.color="BLACK";
-  document.getElementById("demo2").style.background="WHITE";
-  document.getElementById("demo1").style.background="WHITE";
-  document.getElementById("demo").style.background="WHITE";
-  document.getElementById("demo4").style.background="WHITE";
-}
-function myFunction4() {
-  document.getElementById("demo4").style.background="RED";
-  document.getElementById("demo4").style.color="BLACK";
-  document.getElementById("demo3").style.background="WHITE";
-  document.getElementById("demo2").style.background="WHITE";
-  document.getElementById("demo1").style.background="WHITE";
-  document.getElementById("demo").style.background="WHITE";
-}
+    document.getElementById("demo").style.background="BLUE";
+    document.getElementById("demo2").style.color="BLACK";
+    document.getElementById("demo1").style.background="WHITE";
+    document.getElementById("demo2").style.background="WHITE";
+    document.getElementById("demo3").style.background="WHITE";
+    document.getElementById("demo4").style.background="WHITE";
+    document.getElementById("hand").style.display="block";
+  
+  }
+  function myFunction1() {
+    document.getElementById("demo1").style.background="RED";
+    document.getElementById("demo2").style.color="BLACK";
+    document.getElementById("demo2").style.background="WHITE";
+    document.getElementById("demo3").style.background="WHITE";
+    document.getElementById("demo").style.background="WHITE";
+    document.getElementById("demo4").style.background="WHITE";
+  }
+  function myFunction2() {
+    document.getElementById("demo2").style.background="GREEN";
+    document.getElementById("demo2").style.color="WHITE";
+    document.getElementById("demo3").style.background="WHITE";
+    document.getElementById("demo1").style.background="WHITE";
+    document.getElementById("demo").style.background="WHITE";
+    document.getElementById("demo4").style.background="WHITE";
+  }
+  function myFunction3() {
+    document.getElementById("demo3").style.background="YELLOW";
+    document.getElementById("demo2").style.color="BLACK";
+    document.getElementById("demo2").style.background="WHITE";
+    document.getElementById("demo1").style.background="WHITE";
+    document.getElementById("demo").style.background="WHITE";
+    document.getElementById("demo4").style.background="WHITE";
+  }
+  function myFunction4() {
+    document.getElementById("demo4").style.background="RED";
+    document.getElementById("demo4").style.color="BLACK";
+    document.getElementById("demo3").style.background="WHITE";
+    document.getElementById("demo2").style.background="WHITE";
+    document.getElementById("demo1").style.background="WHITE";
+    document.getElementById("demo").style.background="WHITE";
+  }
 function myFunction5() {
   document.getElementById("demo5").style.background="BLUE";
   document.getElementById("demo7").style.color="BLACK";
